@@ -43,13 +43,13 @@ if (age<13 && age >= 0){
     } else {
 console.log("$5");
     }
-} else if (age<18){
+} else if (age<18 && age>12){
     if (showtime<12){
         console.log(`Ticket price: $${(7* .90).toFixed(2)}`)} 
         else {
             console.log("Ticket price: $7");
         }
-} else if (age<60){
+} else if (age<60 && age>18){
     if (showtime<12){
         console.log(`Ticket price: $${(10 * .90).toFixed(2)}`)
      } else {
